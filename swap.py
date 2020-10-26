@@ -14,3 +14,13 @@ y = temp
 
 print('The value of x after swapping: {}'.format(x))
 print('The value of y after swapping: {}'.format(y))
+
+
+
+a = int(input())
+b = int(input())
+x = a
+a = b
+b = x
+print(a)
+print(b)
